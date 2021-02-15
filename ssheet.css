@@ -1,0 +1,53 @@
+body,html {
+  height: 100%;
+  margin: 3%;
+  background-image: url(white.jpeg);
+}
+
+.flexbox {
+  display: flex;
+
+  margin: auto;
+  margin-top: 20%;
+  flex-direction: row;
+
+}
+#bookpage {
+  width: 100%;
+  height: 70%;
+}
+
+.left-page {
+  width: 25%;
+  margin-left: 5%;
+  margin-top: 8%;
+  padding: 5%;
+  position: absolute;
+  text-align: center;
+}
+.right-page {
+  width: 25%;
+  margin-left:49%;
+  margin-top: 8%;
+  padding: 5%;
+
+  position: absolute;
+  text-align: center;
+
+}
+
+p {
+  padding-bottom: 3em;
+}
+
+.choice {
+
+}
+
+.left-pic {
+  width: 100%;
+
+}
+.para {
+  line-height: 1.5;
+}
