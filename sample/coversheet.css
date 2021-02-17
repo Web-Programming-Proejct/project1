@@ -1,0 +1,14 @@
+body {
+  background-color: tan;
+}
+
+.bookcover {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5%;
+}
+
+#bc {
+  width: 1000px;
+}

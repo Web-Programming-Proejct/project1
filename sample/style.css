@@ -1,0 +1,56 @@
+body{
+	background-color: #F5DEB3;
+}
+
+.flexbox{
+	width: 1000px;
+	height: 650px;
+	border: 10px solid #654321;
+	position: relative;
+	overflow: hidden;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 3%;
+	background-color: white;
+	background-image: url("book2.jpg");
+	background-image: cover;
+}
+
+.left-page{
+	width: 500px;
+	text-align: center;
+	margin-left: 2%;
+	margin-top: 12%;
+	position: absolute;
+
+}
+
+.right-page{
+	margin-left: 51%;
+	margin-top: 15%;
+	width: 500px;
+	position: absolute;
+	text-align: center;
+}
+
+.para{
+	line-height: 1.5;
+}
+
+#red{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	margin-left: 2%;
+	animation-name: walking;
+	animation-duration: 10s;
+	animation-delay: 10.1s;
+}
+
+@keyframes walking{
+  0%   {left:0px;}
+  25%  {left:250px;}
+  50%  {left:500px;}
+  75%  {left:750px;}
+  100% {left:1000px;}
+}
