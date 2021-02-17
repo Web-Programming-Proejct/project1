@@ -6,7 +6,6 @@ body,html {
 
 .flexbox {
   display: flex;
-
   margin: auto;
   margin-top: 20%;
   flex-direction: row;
@@ -30,7 +29,6 @@ body,html {
   margin-left:49%;
   margin-top: 8%;
   padding: 5%;
-
   position: absolute;
   text-align: center;
 
@@ -40,14 +38,26 @@ p {
   padding-bottom: 3em;
 }
 
-.choice {
-
-}
 
 .left-pic {
-  width: 100%;
+  width: 50%;
 
 }
 .para {
   line-height: 1.5;
 }
+#red{
+	position: relative;
+  margin-top: 50%;
+  Left:0;
+	animation-name: walking;
+	animation-duration: 10s;
+	animation-delay: 10.1s;
+}
+
+@keyframes walking{
+  0%   {left:0px;}
+  25%  {left:250px;}
+  50%  {left:500px;}
+  75%  {left:750px;}
+  100% {left:1000px;}
