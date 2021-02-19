@@ -10,9 +10,43 @@ body {
 
 }
 
-#bc {
+.bc {
   box-shadow: inset 3px 0px 20px rgba(0, 0, 0, 1),
     0px 0px 50px rgba(0, 0, 0, 1);
   box-sizing: border-box;
   width: 1000px;
+  -webkit-transition-duration: 5s;
+   -moz-transition-duration: 5s;
+   -o-transition-duration: 5s;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+   -webkit-transition-property: -webkit-transform;
+   -moz-transition-property: -moz-transform;
+   -o-transition-property: -o-transform;
+    position: relative;
 }
+.bc:hover {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+
+}
+
+.click {
+  position: relative;
+}
+ .click + span {
+   position: absolute;
+   top: -1px;
+		left: -1px;
+		width: 103%;
+		bottom: -1px;
+		z-index: 1;
+ }
+ .click + span:active {
+ 		left: -9999px;
+ 	}
+
+ 	.click:hover {
+ 		z-index: 2;
+ 	}
