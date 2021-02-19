@@ -1,8 +1,12 @@
-body{
-	background-color: #F5DEB3;
+body, html{
   font-family: fantasy;
   font-size: 18px;
   font-weight: bold;
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .flexbox{
