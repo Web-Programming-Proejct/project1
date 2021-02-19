@@ -15,6 +15,9 @@ body{
 	margin-top: 10%;
 	background-image: url("book.png");
   background-size: 1000px;
+	box-shadow: inset 3px 0px 20px rgba(0, 0, 0, 1),
+    0px 0px 15px rgba(0, 0, 0, 1);
+  box-sizing: border-box;
 }
 
 .left-page{
@@ -27,6 +30,7 @@ body{
 }
 .left-pic{
   width: 55%;
+
 }
 .right-page{
 	margin-left: 52%;
