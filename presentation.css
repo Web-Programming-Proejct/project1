@@ -1,0 +1,22 @@
+            body{
+                background-color: #e74c6b;
+                margin: 0px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            }
+            h1{
+                margin: auto;
+                padding: 10px;
+            }
+            h2{
+                margin-left: 20px;
+                border-bottom: 3px solid black;
+            }
+            .container{
+                margin: 5% auto;
+                width: 50%;
+                border: 10px inset #DC143C;
+                background-color: #F5F5DC;
+                padding: 15px;
+            }
+
+  
